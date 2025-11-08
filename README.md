@@ -30,3 +30,83 @@ This project features a fully functional contact form with backend integration u
 
 ## 🧩 Folder Structure
 
+luv-the-gym/
+┣ 📂 app/                # Next.js pages and routes
+┃ ┣ 📂 api/              # API endpoints (backend logic)
+┃ ┣ 📂 contact/          # Contact page
+┣ 📂 lib/                # MongoDB connection logic
+┣ 📂 models/             # Mongoose schemas and models
+┣ 📜 .env.local          # Environment variables (not committed)
+┣ 📜 package.json        # Dependencies and scripts
+┣ 📜 next.config.js      # Next.js configuration
+┣ 📜 tsconfig.json       # TypeScript configuration
+┣ 📜 README.md           # Project documentation
+
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/<your-username>/luv-the-gym.git
+cd luv-the-gym
+
+### 2️⃣ Install dependencies
+
+npm install
+
+### 3️⃣ Configure environment variables
+Create a `.env.local` file in the root directory and add:
+
+MONGODB_URI="your-mongodb-atlas-connection-string"
+
+### 4️⃣ Run the development server
+
+npm run dev
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## ☁️ Deployment
+
+This project is live on **Vercel**.  
+To deploy your own version:
+
+1. Push the project to GitHub  
+2. Import the repo to [Vercel](https://vercel.com)  
+3. Add your environment variable (`MONGODB_URI`)  
+4. Click **Deploy**
+
+---
+
+## 🧠 Learning Goals
+
+This project helped me understand:
+- The complete **frontend → backend → database** flow  
+- Working with **Next.js App Router**  
+- Handling **form submissions** with server-side logic  
+- Deploying a **full-stack project** with environment variables
+
+---
+
+## 🔮 Future Improvements
+
+- Add an admin dashboard to view contact submissions  
+- Include membership plans and testimonials  
+- Integrate email notifications using Nodemailer  
+- Add animations and dynamic workout sections  
+
+---
+
+## 🧑‍💻 Author
+
+**Luv Sharma**  
+Web Developer | Building full-stack web apps with modern tools  
+[LinkedIn](https://linkedin.com) • [GitHub](https://github.com/your-username)
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).

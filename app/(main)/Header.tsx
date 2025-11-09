@@ -28,7 +28,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex md:flex items-center justify-center gap-8">
             <Link href="/#benefits" className="text-gray-300 hover:text-white transition">
               Gym Benefits
             </Link>

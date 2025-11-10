@@ -29,6 +29,9 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex md:flex items-center justify-center gap-8">
+            <Link href="/" className="text-gray-300 hover:text-white transition">
+              Home
+            </Link>
             <Link href="/#benefits" className="text-gray-300 hover:text-white transition">
               Gym Benefits
             </Link>

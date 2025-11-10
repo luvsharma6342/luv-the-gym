@@ -3,7 +3,7 @@
 A modern, responsive **Gym Website** built with **Next.js 14**, **TypeScript**, and **MongoDB**.  
 This project features a fully functional contact form with backend integration using **API Routes** and **Mongoose**, deployed live on **Vercel**.
 
-🖥️ **Live Demo:** [https://luv-the-gym.vercel.app](https://luv-the-6h92rfcps-luvsharma6342s-projects.vercel.app/)
+🖥️ **Live Demo:** [https://luv-the-gym.vercel.app](https://luv-the-gym.vercel.app/)
 
 ---
 

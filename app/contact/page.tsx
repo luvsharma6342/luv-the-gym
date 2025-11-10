@@ -2,8 +2,10 @@
 import { useState } from 'react';
 import { Send } from 'lucide-react';
 import 'react-phone-input-2/lib/style.css'
+import { toast } from "sonner"
 
 const Form = () => {
+    
     const [loading, setLoading] = useState(false);
     const [status, setStatus] = useState<null | { ok: boolean; msg: string }>(null);
 
@@ -43,6 +45,7 @@ const Form = () => {
             }
             else {
                 setStatus({ ok: true, msg: "Thanks! We'll reach out shortly" });
+                toast("Details sent successfully");
                 setForm({
                     firstName: "",
                     lastName: "",
@@ -156,6 +159,7 @@ const Form = () => {
                     </div>
                 </button>
             </form>
+                
             {
                 status && (
                     <div
